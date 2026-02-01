@@ -62,7 +62,7 @@ const Card = ({ blogs, onUpdate, onRemove }) => {
             <div className="bg-[#161e2e] p-2 sm:p-4 flex justify-between items-center">
               <button
                 onClick={() => setModalMode(null)}
-                className="text-slate-400 hover:text-white"
+                className="text-slate-400 hover:text-white cursor-pointer"
               >
                 Close
               </button>
